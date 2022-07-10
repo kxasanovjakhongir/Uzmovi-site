@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Uzmovi</title>
+</head>
+<body>
+    
+    <div>
+            <div class="header-inner">
+                <div class="container rel">
+                      <div class="row2">
+                        <button id="top-kinolar" value="top_rated" class="btns">Top kinolar</button>
+                        <button id="popular" value="popular" class="btns">popular</button>
+                        <button id="up-coming" value="upcoming" class="btns">upcoming</button>
+                      </div>
+                      <div class="fl" >
+                        <div class="row1">
+                            <input type="text" placeholder="search" id="search">
+                        </div>
+                        <div class="row1">
+                            <input type="number" placeholder="min" id="min">
+                            <input type="number" placeholder="max" id="max">
+                        </div>
+                        <div class="row1">
+                            <input type="number" placeholder="score" id="score">
+                        </div>
+                        <button id="search-btn" class="btn" type="button">button</button>
+                      </div>
+                </div>
+            </div>
+          
+       <div class="container">
+        <div id="div-page" class="append">
+            <!-- <div class="movie">
+                <img src="https://image.tmdb.org/t/p/w500/qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg" alt="Fast &amp; Furious Presents: Hobbs &amp; Shaw">
+   
+               <div class="movie-info">
+                   <h3>Fast &amp; Furious Presents: Hobbs &amp; Shaw</h3>
+                   <span class="orange">6.9</span>
+                </div>
+                <span class="date">2021-09-21</span>
+            </div> -->
+        </div>
+        <div class="pn">
+            <button id="prev-btn" class="prev">prev</button>
+            <span id="page-num" class="title">1</span>
+            <button id="next-btn" class="next">next</button>
+        </div>
+       </div>
+    </div>
+    
+    <script src="./util.js" ></script>
+    <script src="./main.js" ></script>
+</body>
+</html>
